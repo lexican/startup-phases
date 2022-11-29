@@ -7,4 +7,9 @@ export const RandomFactStyles = styled.div`
   border-radius: 12px;
   position: absolute;
   right: 60px;
+  @media (max-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+  }
 `;

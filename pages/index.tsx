@@ -6,19 +6,17 @@ import { HomeStyles } from 'styles/HomeStyles';
 export default function Home() {
   return (
     <HomeStyles>
-      <>
-        <RandomFact />
-        <div className="container">
-          <div className="inner-container">
-            <h1>My startup progress</h1>
-            <PhaseList />
-          </div>
+      <RandomFact />
+      <div className="container">
+        <div className="inner-container">
+          <h1>My startup progress</h1>
+          <PhaseList />
         </div>
-        <div className="footer">
-          <h2>AUDITION ASSIGNMENT</h2>
-          <Logo />
-        </div>
-      </>
+      </div>
+      <div className="footer">
+        <h2>AUDITION ASSIGNMENT</h2>
+        <Logo />
+      </div>
     </HomeStyles>
   );
 }
