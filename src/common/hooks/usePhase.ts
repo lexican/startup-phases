@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import useSWR from 'swr';
-import { IPhase } from '../types/types';
+import { IPhase } from '../types/phase.types';
 import { fetcher } from '../utils/fetcher';
 
 interface IData {

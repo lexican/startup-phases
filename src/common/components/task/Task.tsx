@@ -1,5 +1,5 @@
 import { usePhase } from 'src/common/hooks/usePhase';
-import { ITask } from 'src/common/types/types';
+import { ITask } from 'src/common/types/phase.types';
 import { TaskStyles } from './TaskStyles';
 
 interface IProps {

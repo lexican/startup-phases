@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { data } from 'src/common/data/data';
-import { IPhase } from 'src/common/types/types';
+import { data } from 'src/common/mock-data/phases.data';
+import { IPhase } from 'src/common/types/phase.types';
 import { updateTask } from 'src/common/utils';
 
 export default async function handler(

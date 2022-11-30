@@ -1,5 +1,5 @@
-import { data } from 'src/common/data/data';
-import { IPhase } from '../types/types';
+import { data } from 'src/common/mock-data/phases.data';
+import { IPhase } from '../types/phase.types';
 
 export const updateTask = (
   phaseId: number,
