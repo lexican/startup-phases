@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { data } from 'src/common/mock-data/phases.data';
-import { IPhase } from 'src/common/types/phase.types';
-import { updateTask } from 'src/common/utils';
+import { data } from 'src/mock-data/phases.data';
+import { IPhase } from 'src/types/phase.types';
+import { updateTask } from 'src/utils';
 
 export default async function handler(
   req: NextApiRequest,

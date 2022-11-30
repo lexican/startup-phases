@@ -1,4 +1,4 @@
-import { data } from 'src/common/mock-data/phases.data';
+import { data } from 'src/mock-data/phases.data';
 import { IPhase } from '../types/phase.types';
 
 export const updateTask = (

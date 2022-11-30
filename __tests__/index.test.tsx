@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import PhaseList from 'src/common/components/phase-list/PhaseList';
-import { usePhase } from 'src/common/hooks/usePhase';
+import PhaseList from 'src/components/phase-list/PhaseList';
+import { usePhase } from 'src/hooks/usePhase';
 import Home from '../pages/index';
 
 jest.mock('src/common/hooks/usePhase', () => ({

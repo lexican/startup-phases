@@ -1,6 +1,6 @@
-import Logo from 'src/common/components/logo/Logo';
-import PhaseList from 'src/common/components/phase-list/PhaseList';
-import RandomFact from 'src/common/components/random-fact/RandomFact';
+import Logo from 'src/components/logo/Logo';
+import PhaseList from 'src/components/phase-list/PhaseList';
+import RandomFact from 'src/components/random-fact/RandomFact';
 import { HomeStyles } from 'styles/HomeStyles';
 
 export default function Home() {
