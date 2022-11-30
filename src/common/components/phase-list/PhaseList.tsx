@@ -5,8 +5,8 @@ import Task from '../task/Task';
 import { PhaseListStyles } from './PhaseListStyles';
 
 const PhaseList = (): JSX.Element => {
-  const { data } = usePhase();
-  if (!data) {
+  const { data, loading } = usePhase();
+  if (!data || loading) {
     return <Loader />;
   }
 
