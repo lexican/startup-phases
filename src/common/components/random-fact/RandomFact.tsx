@@ -13,7 +13,10 @@ const RandomFact = (): JSX.Element => {
   if (error) return <div>failed to load</div>;
   if (!data) return <></>;
 
-  return phases?.phases[phases?.phases.length - 1].isCompleted ? (
+  const phasesCompeted =
+    phases?.phases[phases?.phases.length - 1].isCompleted ?? false;
+
+  return phasesCompeted ? (
     <RandomFactStyles>
       <p> {data.text}</p>
     </RandomFactStyles>

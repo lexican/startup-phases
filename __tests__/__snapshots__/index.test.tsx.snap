@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchyanged 1`] = `
+<div>
+  <div
+    class="sc-gKPRtg cxZQAE"
+  >
+    <div>
+      failed to load
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="inner-container"
+      >
+        <h1>
+          My startup progress
+        </h1>
+        <div
+          class="sc-gswNZR hMTrYV"
+        />
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <h2>
+        AUDITION ASSIGNMENT
+      </h2>
+      <div
+        class="sc-bcXHqe Kgrez"
+      >
+        <div
+          class="dot"
+        />
+        <div
+          class="dot"
+        />
+        <div
+          class="dot-white"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,5 +1,5 @@
 import { usePhase } from '../../hooks/usePhase';
-import { LoaderStyles } from '../loader/LoaderStyles';
+import Loader from '../loader/Loader';
 import Phase from '../phase/Phase';
 import Task from '../task/Task';
 import { PhaseListStyles } from './PhaseListStyles';
@@ -7,7 +7,7 @@ import { PhaseListStyles } from './PhaseListStyles';
 const PhaseList = (): JSX.Element => {
   const { data } = usePhase();
   if (!data) {
-    return <LoaderStyles />;
+    return <Loader />;
   }
 
   return (
